@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>rs.slavko.examples.springcloud</groupId>
-	<artifactId>microservice1</artifactId>
+	<artifactId>microservicesclient</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>microservice1</name>
+	<name>microservicesclient</name>
 	<description>Microservice1 for example spring cloud project.</description>
 
 	<parent>

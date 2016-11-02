@@ -9,7 +9,7 @@
 	<packaging>jar</packaging>
 
 	<name>microservice1</name>
-	<description>Microservice1 for example spring cloud project.</description>
+	<description>microservice1</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -32,6 +32,11 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
 
 		<dependency>
