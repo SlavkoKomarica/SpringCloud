@@ -2,12 +2,11 @@ spring:
   application:
     name: microservicesclient
 server:
-  port: 0
+  port: 8888
 eureka:
   client:
     registerWithEureka: false
     serviceUrl:
       defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
-  instance:
-    preferIpAddress: true
+
 

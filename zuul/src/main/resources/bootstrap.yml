@@ -1,13 +1,12 @@
 spring:
   application:
-    name: microservicesclient
+    name: zool
 server:
-  port: 0
+  port: 8889
 eureka:
   client:
     registerWithEureka: false
     serviceUrl:
       defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
-  instance:
-    preferIpAddress: true
+
 
