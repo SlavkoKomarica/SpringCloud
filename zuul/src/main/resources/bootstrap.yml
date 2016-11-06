@@ -1,6 +1,6 @@
 spring:
   application:
-    name: zool
+    name: zuul
 server:
   port: 8889
 eureka:
